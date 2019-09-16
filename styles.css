@@ -84,6 +84,10 @@ input, button {
   padding: 50px 30px 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .sub-cont {
   overflow: hidden;
   position: absolute;
@@ -262,7 +266,7 @@ input {
   border-bottom: 1px solid #DCDCDC;
   text-align: center;
   background-color: #DCDCDC;
-  
+
 }
 
 .forgot-pass {
