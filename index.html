@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel=stylesheet href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+          
+<body>
+        <p class="center-hack">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+<div class="cont">
+  <div class="form sign-in">
+    <h2>Welcome back,</h2>
+    <label>
+      <span>Email</span>
+      <input type="email" />
+    </label>
+    <label>
+      <span>Password</span>
+      <input type="password" />
+    </label>
+    <p class="forgot-pass">Forgot password?</p>
+    <button type="button" class="submit">Sign In</button>
+    <button type="button" class="fb-btn">Connect with <span>facebook</span></button>
+  </div>
+  <div class="sub-cont">
+    <div class="img">
+      <div class="img__text m--up">
+        <h2>New here?</h2>
+        <p>Sign up and discover great amount of new opportunities!</p>
+      </div>
+      <div class="img__text m--in">
+        <h2>Welcome Back!</h2>
+        <p>Stay connected with us!</p>
+      </div>
+      <div class="img__btn">
+        <span class="m--up">Sign Up</span>
+        <span class="m--in">Sign In</span>
+      </div>
+    </div>
+    <div class="form sign-up">
+      <h2 id="create-account">Create Account</h2>
+      <label>
+
+
+            <ul>
+                <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
+                <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
+                <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
+            </ul>
+   <div>
+       <p>or use your email for registration:</p>
+    </div>     
+
+
+        <div class="awesomeholder">
+        <input type="text" placeholder="Name" style="direction: rtl; text-align: left;"/>
+        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+      </div>
+
+      
+        <div class="awesomeholder">
+        <input type="email" placeholder="Email" style="direction: rtl; text-align: left;"/>
+        <i class="fa fa-envelope fa-lg fa-fw"></i>
+        </div>
+
+        <div class="awesomeholder">
+        <input type="password" placeholder="Password" style="direction: rtl; text-align: left;"/>
+        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+      </label>
+      <button type="button" class="submit">Sign Up</button>
+    </div>
+  </div>
+</div>
+
+<script>document.querySelector('.img__btn').addEventListener('click', function() {
+        document.querySelector('.cont').classList.toggle('s--signup');
+    });</script>
+        
+</body>
+</html>
