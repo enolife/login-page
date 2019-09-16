@@ -320,13 +320,15 @@ ul li {
 }
 
 .wp-icon {
-width: 38px;
-height: 38px;
+width: 40px;
+height: 40px;
 border-radius: 50%;
+border-color: #808080;
+border: 1px solid #808080;
 text-align: center;
 line-height: 50px;
 vertical-align: middle;
-color: #fff;
+color: #000000;
 margin-right: 5px;
 left:0;
 top:8px;
@@ -334,13 +336,13 @@ padding: 10.4px 8px;
 }
 
 .fa-facebook-f {
-background: #3B5998;
+background: #FFFFFF;
 }
 
 .fa-linkedin {
-background: #0077B5;
+background: #FFFFFF;
 }
 
 .fa-twitter {
-background: #1DA1F2;
+background: #FFFFFF;
 }
