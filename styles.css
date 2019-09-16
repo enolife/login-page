@@ -17,6 +17,11 @@ input, button {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+.tip {
+  color: #A9A9A9;
+  font-size: 15px;
+}
+
 @font-face {
   font-family: "FontAwesome";
   font-weight: normal;
@@ -286,6 +291,7 @@ input {
 
 #create-account {
   color: #3CB371;
+  font-size: 40px
 
 }}
 
@@ -315,11 +321,13 @@ input {
 
 ul {
   list-style: none;
+  list-style-type: none;
 }
 
 ul li {
   margin:5px 5px;
   float:left;
+  list-style-type: none;
 }
 
 .wp-icon {
