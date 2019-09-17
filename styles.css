@@ -299,7 +299,7 @@ input {
   color: #4DB8A9;
   font-size: 40px
 
-}}
+}
 
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
@@ -321,7 +321,6 @@ input {
   vertical-align: top;
 }
 
-}
 
 /* social button*/
 
