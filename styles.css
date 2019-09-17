@@ -270,7 +270,7 @@ input {
   padding-top: 11.5px;
   font-size: 16px;
   border-bottom: 1px solid #F4F8F7;
-  text-align: center;
+  text-align: 0;
   background-color: #F4F8F7;
   
 }
