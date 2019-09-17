@@ -176,7 +176,7 @@ button {
 }
 .img__text h2 {
   margin-bottom: 10px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .img__text p {
   font-size: 14px;
@@ -307,6 +307,13 @@ input {
   margin-bottom: 57px;
 }
 
+#login-header {
+  color: #4DB8A9;
+  font-size: 36px;
+  margin-left: 31px;
+  margin-bottom: 57px;
+}
+
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
           transform: translate3d(-900px, 0, 0);
@@ -352,20 +359,24 @@ text-align: center;
 line-height: 20px;
 vertical-align: middle;
 color: #000000;
-margin-right: 6px;
+margin-right: 1px;
 left:0;
 top:8px;
-padding: 10.4px 8px;
+padding: 12px 1px;
 }
 
 .fa-facebook-f {
 background: #FFFFFF;
+margin-right: 6px;
+
 }
 
 .fa-linkedin {
 background: #FFFFFF;
+margin-right: 6px;
 }
 
 .fa-twitter {
 background: #FFFFFF;
+margin-right: 6px;
 }
