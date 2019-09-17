@@ -290,6 +290,14 @@ input {
   text-transform: uppercase;
 }
 
+.submit-login {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 2px;
+  background: #4DB8A9;
+  text-transform: uppercase;
+}
+
 .sign-in {
   transition-timing-function: ease-out;
 }
