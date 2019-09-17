@@ -20,8 +20,11 @@ input, button {
 .tip {
   color: #A9A9A9;
   font-size: 15px;
+  margin-left: 38px;
+  margin-bottom: -20px;
+  margin-top: 20px;
+  white-space: nowrap;
 }
-
 
 @font-face {
   font-family: "FontAwesome";
@@ -280,8 +283,9 @@ input {
 }
 
 .submit {
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 20px;
+  margin-right: 210px;
   background: #4DB8A9;
   text-transform: uppercase;
 }
@@ -298,9 +302,10 @@ input {
 
 #create-account {
   color: #4DB8A9;
-  font-size: 40px
-
-}}
+  font-size: 36px;
+  margin-left: 31px;
+  margin-bottom: 57px;
+}
 
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
@@ -347,7 +352,7 @@ text-align: center;
 line-height: 20px;
 vertical-align: middle;
 color: #000000;
-margin-right: 5px;
+margin-right: 6px;
 left:0;
 top:8px;
 padding: 10.4px 8px;
