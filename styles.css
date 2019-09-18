@@ -7,7 +7,7 @@
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   background: #ededed;
-  background-image: url("src/spark_background.png")
+  background-image: url("src/spark1.png")
 }
 
 input, button {
@@ -28,7 +28,7 @@ input, button {
 
 @font-face {
   font-family: "FontAwesome";
-  font-weight: normal;
+  font-weight: lighter;
     font-display: auto;
   font-style: normal;
   src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2");
@@ -329,8 +329,7 @@ input {
   font-size: 36px;
   margin-left: 31px;
   margin-bottom: 57px;
-}
-
+  
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
           transform: translate3d(-900px, 0, 0);
