@@ -7,7 +7,7 @@
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   background: #ededed;
-  background-image: url("src/spark1.png")
+  background-image: url("https://res.cloudinary.com/akofe/image/upload/v1568846108/spark2_kjcaz1.png")
 }
 
 input, button {
@@ -272,7 +272,6 @@ input {
   border-bottom: 1px solid #F4F8F7;
   text-align: 0;
   background-color: #F4F8F7;
-  
 }
 
 .forgot-pass {
@@ -280,19 +279,19 @@ input {
   text-align: center;
   font-size: 15px;
   color: #000000;
+  margin-left: 70px;
 }
 
 .forgot-pass-hr {
- border: 1px solid #D3D3D3;
- margin-top: 5px;
- margin-bottom: 34px;
- margin-left: 62px;
- width: 50%;
-
+  border: 1px solid #D3D3D3;
+  margin-top: 5px;
+  margin-bottom: 34px;
+  margin-left: 98px;
+  width: 50%;
 }
 
 .submit {
-  margin-top: 25px;
+  margin-top: 16px;
   margin-bottom: 20px;
   margin-right: 210px;
   background: #4DB8A9;
