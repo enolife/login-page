@@ -36,7 +36,7 @@
     <form action="login.php" method="POST">
     <label>
         <div class="awesomeholder">
-      <input type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+      <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
       <i class="fa fa-envelope fa-lg fa-fw"></i>
       </div>
     </label>
@@ -89,34 +89,36 @@
             <br>
             <br>
             <br> 
-     
+
+        <form action="register.php" method="POST">
         <div class="awesomeholder">
-        <input type="text" placeholder=" Full Name" style="direction: rtl; text-align: left;"/>
+        <input type="text" placeholder=" Full Name" id="name" name="name" required/>
         <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
       </div>
 
         <div class="awesomeholder">
-        <input type="email" placeholder="Email" style="direction: ltr; text-align: left;"/>
+        <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
         <i class="fa fa-envelope fa-lg fa-fw"></i>
         </div>
         
         <div class="awesomeholder">
-        <input type="text" placeholder="Username" style="direction: rtl; text-align: left;"/>
+        <input type="text" placeholder="Username" type="text" id="username" name="username" required/>
         <i class="fa fa-user fa-lg fa-fw"></i>
         </div>
 
         <div class="awesomeholder">
-        <input type="password" placeholder="Password" style="direction: ltr; text-align: left;"/>
+        <input type="password" placeholder="Password" id="password" name="password" minlength="6" maxlength="15" required/>
         <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
         </div>
         
         <div class="awesomeholder">
-        <input type="password" placeholder="Repeat Password" style="direction: rtl; text-align: left;"/>
+        <input type="password" placeholder="Repeat Password" id="repeat_password" name="repeatpassword" minlength="6" maxlength="15" required/>
         <i class="fa fa-lock fa-lg fa-fw" aria-hidden= "true"></i>
         </div>
         
       </label>
-      <button type="button" class="submit">Sign Up</button>
+      <button type="submit" class="submit">Sign Up</button>
+      </form>
     </div>
   </div>
 </div>
@@ -126,7 +128,23 @@
 
 <script>document.querySelector('.img__btn').addEventListener('click', function() {
         document.querySelector('.cont').classList.toggle('s--signup');
-    });</script>
+    });
+
+    var password = document.getElementById("password")
+  , confirm_password = document.getElementById("repeat_password");
+
+function validatePassword(){
+  if(password.value != repeat_password.value) {
+    repeat_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    repeat_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+repeat_password.onkeyup = validatePassword;
+    
+    </script>
         
 </body>
 </html>
