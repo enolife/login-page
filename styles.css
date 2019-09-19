@@ -6,8 +6,10 @@
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  background: #ededed;
-  background-image: url("https://res.cloudinary.com/akofe/image/upload/v1568846108/spark2_kjcaz1.png")
+  background-image: url("https://res.cloudinary.com/akofe/image/upload/w_1450,h_1405,c_scale/spark2_kjcaz1.png")
+ 
+  
+  
 }
 
 input, button {
@@ -73,9 +75,12 @@ input, button {
   position: relative;
   width: 900px;
   height: 550px;
-  margin: 0 auto 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   background: #fff;
   border-radius: 10px;
+  
 }
 
 .social {
@@ -395,3 +400,23 @@ margin-right: 6px;
 background: #FFFFFF;
 margin-right: 6px;
 }
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
