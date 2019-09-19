@@ -151,7 +151,7 @@ button {
   top: 0;
   width: 1000px;
   height: 100%;
-  background-image: url("src/animate.png");
+  background-image: url("src/animate4.png");
   background-size: cover;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out;
@@ -406,4 +406,3 @@ margin-right: 6px;
 background: #FFFFFF;
 margin-right: 6px;
 }
-
