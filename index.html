@@ -33,23 +33,25 @@
     </div> 
     <br>
 
+    <form action="login.php" method="POST">
     <label>
         <div class="awesomeholder">
-      <input type="email" placeholder="Email"/>
+      <input type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
       <i class="fa fa-envelope fa-lg fa-fw"></i>
       </div>
     </label>
 
     <label>
         <div class="awesomeholder">
-      <input type="password" placeholder="Password"/>
+      <input id="pw" name="pw" type="password" placeholder="Password" required minlength="6" maxlength="15"/>
       <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
       </div>
 
     </label>
-    <p class="forgot-pass">Forgot password?</p>
+    <a class="forget-pass" style="text-decoration:none; display: block; padding-top:24px; text-align: center; font-size: 15px; color: #000000; margin-left: 70px;" href="#" onclick="return confirm('This functionality is not available right now')">Forgot password?</a>
     <hr class=forgot-pass-hr>
-    <button type="button" class="submit-login">Sign In</button>
+    <button type="submit" class="submit-login">Sign In</button>
+    </form>
 
   </div>
     <!--Ends here-->

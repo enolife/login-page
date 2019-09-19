@@ -280,7 +280,7 @@ input {
 }
 
 .forgot-pass {
-  margin-top: 15px;
+  margin-top: 29px;
   text-align: center;
   font-size: 15px;
   color: #000000;
@@ -289,7 +289,7 @@ input {
 
 .forgot-pass-hr {
   border: 1px solid #D3D3D3;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 34px;
   margin-left: 98px;
   width: 50%;
