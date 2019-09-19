@@ -88,7 +88,12 @@ input, button {
   margin-top: 24%;
   margin-bottom: -60px;
 }
-
+.social2 {
+  margin: 75px;
+  margin-top: 24%;
+  margin-bottom: -60px;
+  width: max-content;
+}
 
 .form {
   position: relative;
