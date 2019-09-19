@@ -317,6 +317,10 @@ input {
           transform: translate3d(640px, 0, 0);
 }
 
+@media screen and (min-width: 321px) and (max-width: 812px) {
+  /* comes into effect for screens between 321 and 812 pixels (inclusive) */
+{
+  }
 #create-account {
   color: #4DB8A9;
   font-size: 36px;
