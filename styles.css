@@ -6,8 +6,10 @@
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  background: #ededed;
-  background-image: url("src/spark_background.png")
+  background-image: url("https://res.cloudinary.com/akofe/image/upload/w_1450,h_1405,c_scale/spark2_kjcaz1.png")
+ 
+  
+  
 }
 
 input, button {
@@ -20,12 +22,15 @@ input, button {
 .tip {
   color: #A9A9A9;
   font-size: 15px;
+  margin-left: 38px;
+  margin-bottom: -20px;
+  margin-top: 20px;
+  white-space: nowrap;
 }
-
 
 @font-face {
   font-family: "FontAwesome";
-  font-weight: normal;
+  font-weight: lighter;
     font-display: auto;
   font-style: normal;
   src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2");
@@ -70,9 +75,12 @@ input, button {
   position: relative;
   width: 900px;
   height: 550px;
-  margin: 0 auto 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   background: #fff;
   border-radius: 10px;
+  
 }
 
 .social {
@@ -173,7 +181,7 @@ button {
 }
 .img__text h2 {
   margin-bottom: 10px;
-  font-weight: normal;
+  font-weight: bold;
 }
 .img__text p {
   font-size: 14px;
@@ -267,21 +275,38 @@ input {
   padding-top: 11.5px;
   font-size: 16px;
   border-bottom: 1px solid #F4F8F7;
-  text-align: center;
+  text-align: 0;
   background-color: #F4F8F7;
-  
 }
 
 .forgot-pass {
-  margin-top: 15px;
+  margin-top: 29px;
   text-align: center;
-  font-size: 12px;
-  color: #cfcfcf;
+  font-size: 15px;
+  color: #000000;
+  margin-left: 70px;
+}
+
+.forgot-pass-hr {
+  border: 1px solid #D3D3D3;
+  margin-top: 2px;
+  margin-bottom: 34px;
+  margin-left: 98px;
+  width: 50%;
 }
 
 .submit {
-  margin-top: 40px;
+  margin-top: 16px;
   margin-bottom: 20px;
+  margin-right: 210px;
+  background: #4DB8A9;
+  text-transform: uppercase;
+}
+
+.submit-login {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 2px;
   background: #4DB8A9;
   text-transform: uppercase;
 }
@@ -298,10 +323,17 @@ input {
 
 #create-account {
   color: #4DB8A9;
-  font-size: 40px
+  font-size: 36px;
+  margin-left: 31px;
+  margin-bottom: 57px;
+}
 
-}}
-
+#login-header {
+  color: #4DB8A9;
+  font-size: 36px;
+  margin-left: 31px;
+  margin-bottom: 57px;
+  
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
           transform: translate3d(-900px, 0, 0);
@@ -347,20 +379,25 @@ text-align: center;
 line-height: 20px;
 vertical-align: middle;
 color: #000000;
-margin-right: 5px;
+margin-right: 1px;
 left:0;
 top:8px;
-padding: 10.4px 8px;
+padding: 12px 1px;
 }
 
 .fa-facebook-f {
 background: #FFFFFF;
+margin-right: 6px;
+
 }
 
 .fa-linkedin {
 background: #FFFFFF;
+margin-right: 6px;
 }
 
 .fa-twitter {
 background: #FFFFFF;
+margin-right: 6px;
 }
+
