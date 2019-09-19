@@ -85,7 +85,8 @@ input, button {
 
 .social {
   margin: 46px;
-  margin-top: -15%;
+  margin-top: 24%;
+  margin-bottom: -60px;
 }
 
 
@@ -296,9 +297,9 @@ input {
 }
 
 .submit {
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 210px;
+  margin-right: 1px;
   background: #4DB8A9;
   text-transform: uppercase;
 }
