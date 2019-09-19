@@ -17,11 +17,20 @@ input, button {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+.team-name {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 24px;
+  color: white;
+  z-index: 100;
+}
+
 .tip {
   color: #A9A9A9;
   font-size: 15px;
   margin-left: 38px;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   margin-top: 20px;
   white-space: nowrap;
 }
@@ -52,9 +61,9 @@ input, button {
 
 .awesomeholder i{
   position: absolute;
-  left:0;
-  top:8px;
-  padding: 9px 8px;
+  left: 10px;
+  top: 6px;
+  padding: 9px 0;
   color: #808080
 }
 
@@ -73,7 +82,7 @@ input, button {
   position: relative;
   width: 900px;
   height: 550px;
-  margin: 0 auto 100px;
+  margin: 60px auto 100px;
   background: #fff;
   border-radius: 10px;
 }
@@ -81,6 +90,7 @@ input, button {
 .social {
   margin: 46px;
   margin-top: -15%;
+
 }
 
 
@@ -250,13 +260,15 @@ h2 {
   text-align: center;
 }
 
-label {
+.label {
   display: block;
   width: 260px;
-  margin: 25px auto 0;
+  /* margin: 25px auto 0; */
+  margin-top: 120px;
+  margin-left: 20%;
   text-align: center;
 }
-label span {
+.label span {
   font-size: 12px;
   color: #cfcfcf;
   text-transform: uppercase;
@@ -272,6 +284,8 @@ input {
   border-bottom: 1px solid #F4F8F7;
   text-align: 0;
   background-color: #F4F8F7;
+  border-radius: 30px;
+  border: 1px solid #e2e2e2;
 }
 
 .forgot-pass {
@@ -293,7 +307,7 @@ input {
 .submit {
   margin-top: 16px;
   margin-bottom: 20px;
-  margin-right: 210px;
+  margin-left: 60px;
   background: #4DB8A9;
   text-transform: uppercase;
 }
@@ -323,20 +337,31 @@ input {
   margin-bottom: 57px;
 }
 
+
+.sign-up.label {
+  margin-top: 60px;
+}
+
+
 #login-header {
   color: #4DB8A9;
   font-size: 36px;
   margin-left: 31px;
   margin-bottom: 57px;
-  
+
+}
+/* 
 .sign-up {
   -webkit-transform: translate3d(-900px, 0, 0);
           transform: translate3d(-900px, 0, 0);
-}
+} */
+
+.sign-
 .cont.s--signup .sign-up {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
+
 
 .icon-link {
   position: absolute;
