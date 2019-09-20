@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,143 +9,146 @@
     <link rel=stylesheet href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-   
+
 <body>
 
-  <!--Sigin or login  page-->
+    <!--Sigin or login  page-->
 
-        
-<div class="cont">
-  <div class="form sign-in">
-    <h2 id="login-header">Sign in to Team Spark</h2>
-    <label>
+    <div class="cont">
+        <div class="form sign-in">
+            <h2 id="login-header">Sign in to Team Spark</h2>
+            <label>
 
-        <div class="social"><ul>
-            <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
-            <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
-            <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
-            </ul></div>
+                <div class="social">
+                    <ul>
+                        <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
+                        <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
+                        <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
+                    </ul>
+                </div>
 
-            <br>
-            <br>
-            <br>     
-   <div> 
-       <p class="tip">or use your email account:</p>
-    </div> 
-    <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <p class="tip">or use your email account:</p>
+                </div>
+                <br>
 
-    <form action="login.php" method="POST">
-    <label>
-        <div class="awesomeholder">
-      <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
-      <i class="fa fa-envelope fa-lg fa-fw"></i>
-      </div>
-    </label>
+                <form action="login.php" method="POST">
+                    <label>
+                        <div class="awesomeholder">
+                            <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+                            <i class="fa fa-envelope fa-lg fa-fw"></i>
+                        </div>
+                    </label>
 
-    <label>
-        <div class="awesomeholder">
-      <input id="pw" name="pw" type="password" placeholder="Password" required minlength="6" maxlength="15"/>
-      <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
-      </div>
+                    <label>
+                        <div class="awesomeholder">
+                            <input id="pw" name="pw" type="password" placeholder="Password" required minlength="6" maxlength="15" />
+                            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
 
-    </label>
-    <a class="forget-pass" style="text-decoration:none; display: block; padding-top:24px; text-align: center; font-size: 15px; color: #000000; margin-left: 70px;" href="#" onclick="return confirm('This functionality is not available right now')">Forgot password?</a>
-    <hr class=forgot-pass-hr>
-    <button type="submit" class="submit-login">Sign In</button>
-    </form>
+                    </label>
+                    <a class="forget-pass" style="text-decoration:none; display: block; padding-top:24px; text-align: center; font-size: 15px; color: #000000; margin-left: 70px;" href="#" onclick="return confirm('This functionality is not available right now')">Forgot password?</a>
+                    <hr class=forgot-pass-hr>
+                    <button type="submit" class="submit-login">Sign In</button>
+                </form>
 
-  </div>
+        </div>
+        <!--Ends here-->
+
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <h2>Hey, There!</h2>
+                    <p>Stay connected with us</p>
+                </div>
+                <div class="img__text m--in">
+                    <h2>Welcome Back!</h2>
+                    <br>
+
+                    <p>Have an account with us?</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Sign Up</span>
+                    <span class="m--in">Sign In</span>
+                </div>
+            </div>
+
+            <!--Registration or signup page-->
+
+            <div class="form sign-up">
+                <h2 id="create-account">Create Account</h2>
+                <label>
+
+                    <div class="social2">
+                        <ul>
+                            <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
+                            <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
+                            <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
+                        </ul>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <form action="register.php" method="POST">
+                        <div class="awesomeholder">
+                            <input type="text" placeholder=" Full Name" id="name" name="name" required/>
+                            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="awesomeholder">
+                            <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+                            <i class="fa fa-envelope fa-lg fa-fw"></i>
+                        </div>
+
+                        <div class="awesomeholder">
+                            <input type="text" placeholder="Username" type="text" id="username" name="username" required/>
+                            <i class="fa fa-user fa-lg fa-fw"></i>
+                        </div>
+
+                        <div class="awesomeholder">
+                            <input type="password" placeholder="Password" id="password" name="password" minlength="6" maxlength="15" required/>
+                            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="awesomeholder">
+                            <input type="password" placeholder="Repeat Password" id="repeat_password" name="repeatpassword" minlength="6" maxlength="15" required/>
+                            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+
+                </label>
+                <button type="submit" class="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!--Ends here-->
 
-  <div class="sub-cont">
-    <div class="img">
-      <div class="img__text m--up">
-        <h2>Hey, There!</h2>
-        <p>Stay connected with us</p>
-      </div>
-      <div class="img__text m--in">
-        <h2>Welcome Back!</h2>
-        <br>
-    
-        <p>Have an account with us?</p>
-      </div>
-      <div class="img__btn">
-        <span class="m--up">Sign Up</span>
-        <span class="m--in">Sign In</span>
-      </div>
-    </div>
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
 
-    <!--Registration or signup page-->
+        var password = document.getElementById("password"),
+            confirm_password = document.getElementById("repeat_password");
 
-    <div class="form sign-up">
-      <h2 id="create-account">Create Account</h2>
-      <label>
+        function validatePassword() {
+            if (password.value != repeat_password.value) {
+                repeat_password.setCustomValidity("Passwords Don't Match");
+            } else {
+                repeat_password.setCustomValidity('');
+            }
+        }
 
-          <div class="social2"><ul>
-              <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
-              <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
-              <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
-              </ul></div>
-      
-            <br>
-            <br>
-            <br> 
-
-        <form action="register.php" method="POST">
-        <div class="awesomeholder">
-        <input type="text" placeholder=" Full Name" id="name" name="name" required/>
-        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-      </div>
-
-        <div class="awesomeholder">
-        <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
-        <i class="fa fa-envelope fa-lg fa-fw"></i>
-        </div>
-        
-        <div class="awesomeholder">
-        <input type="text" placeholder="Username" type="text" id="username" name="username" required/>
-        <i class="fa fa-user fa-lg fa-fw"></i>
-        </div>
-
-        <div class="awesomeholder">
-        <input type="password" placeholder="Password" id="password" name="password" minlength="6" maxlength="15" required/>
-        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
-        </div>
-        
-        <div class="awesomeholder">
-        <input type="password" placeholder="Repeat Password" id="repeat_password" name="repeatpassword" minlength="6" maxlength="15" required/>
-        <i class="fa fa-lock fa-lg fa-fw" aria-hidden= "true"></i>
-        </div>
-        
-      </label>
-      <button type="submit" class="submit">Sign Up</button>
-      </form>
-    </div>
-  </div>
-</div>
-
-          <!--Ends here-->
-          
-
-<script>document.querySelector('.img__btn').addEventListener('click', function() {
-        document.querySelector('.cont').classList.toggle('s--signup');
-    });
-
-    var password = document.getElementById("password")
-  , confirm_password = document.getElementById("repeat_password");
-
-function validatePassword(){
-  if(password.value != repeat_password.value) {
-    repeat_password.setCustomValidity("Passwords Don't Match");
-  } else {
-    repeat_password.setCustomValidity('');
-  }
-}
-
-password.onchange = validatePassword;
-repeat_password.onkeyup = validatePassword;
-    
+        password.onchange = validatePassword;
+        repeat_password.onkeyup = validatePassword;
     </script>
-        
+
 </body>
+
 </html>

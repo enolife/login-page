@@ -80,7 +80,6 @@ input, button {
   margin-top: 100px;
   background: #fff;
   border-radius: 10px;
-  
 }
 
 .social {
@@ -405,4 +404,15 @@ margin-right: 6px;
 .fa-twitter {
 background: #FFFFFF;
 margin-right: 6px;
+}
+
+.dashbody {
+  position: relative;
+  width: 90%;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  background: #fff;
+  border-radius: 10px;
 }
