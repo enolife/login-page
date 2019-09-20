@@ -1,102 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel=stylesheet href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel=stylesheet href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-   
+
 <body>
 
-  <!--Sigin or login  page-->
+  <!-- Main Container -->
+  <div class="cont">
 
-        <p class="center-hack">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
-<div class="cont">
-  <div class="form sign-in">
-    <h2>Welcome back,</h2>
-    <label>
-      <span>Email</span>
-      <input type="email" />
-    </label>
-    <label>
-      <span>Password</span>
-      <input type="password" />
-    </label>
-    <p class="forgot-pass">Forgot password?</p>
-    <button type="button" class="submit">Sign In</button>
+    
+    <!-- Info & Sign-Up Section -->
+    <div class="sub-cont">
 
-  </div>
+      <!-- Info Box -->
+      <div class="img- header">
+        <h1 class="team-name">SPARK</h1>
+        <div class="img__text- m--up info">
+          <h2>Hey, There!</h2>
+          <p>Stay connected with us</p>
+        </div>
+        <div class="img__text- m--in info">
+          <h2>Welcome Back!</h2>
+          <p>Have an account with us?</p>
+        </div>
+        <div class="img__btn btn-container">
+          <span class="m--up">Sign Up</span>
+          <span class="m--in">Log In</span>
+        </div>
+      </div>
+
+      <!-- Sign Up -->
+      <form class="label sign-up" >
+        <h2 id="create-account">Sign Up</h2>
+
+        <!-- Full Name -->
+        <div class="awesomeholder">
+          <input type="text" placeholder=" Full Name" id="full-name" />
+          <label for="full-name">
+            <i class="fa fa-user fa-md fa-fw" aria-hidden="true"></i>
+          </label>
+        </div>
+        
+        <!-- Username -->
+        <div class="awesomeholder">
+          <input type="text" placeholder="Username" id="username" />
+          <label for="username">
+            <i class="fa fa-user fa-md fa-fw"></i>
+          </label>
+        </div>
+  
+        <!-- Email -->
+        <div class="awesomeholder">
+          <input type="email" placeholder="Email" id="email"/>
+          <label for="email">
+            <i class="fa fa-envelope fa-md fa-fw"></i>
+          </label>
+        </div>
+
+        <!-- Password -->
+        <div class="awesomeholder">
+          <input type="password" placeholder="Password" id="password" />
+          <label for="password">
+            <i class="fa fa-lock fa-md fa-fw" aria-hidden="true"></i>
+          </label>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="awesomeholder">
+          <input type="password" placeholder="Repeat Password" id="repeat-password" />
+          <label for="repeat-password">
+            <i class="fa fa-lock fa-md fa-fw" aria-hidden="true"></i>
+          </label>
+        </div>
+
+        <!-- Submit -->
+        <button type="button" class="submit">Sign Up</button>
+      </form>
+    </div>
+    <!-- Log In  -->
+    <form class="label sign-in">
+      <!-- TITLE -->
+      <h2 id="login-header">Log In</h2>
+
+      <!-- Email -->
+      <div class="awesomeholder">
+        <input type="email" placeholder="Email" id="email" />
+        <label for="email"><i class="fa fa-envelope fa-md fa-fw"></i></label>
+      </div>
+
+      <!-- Password -->
+      <div class="awesomeholder">
+        <input type="password" placeholder="Password" id="password"/>
+        <label for="password">
+          <i class="fa fa-lock fa-md fa-fw" aria-hidden="true"></i>
+        </label>
+      </div>
+
+      <!-- Submit -->
+      <button type="button" class="submit">Log In</button>
+    </form>
     <!--Ends here-->
 
-  <div class="sub-cont">
-    <div class="img">
-      <div class="img__text m--up">
-        <h2>New here?</h2>
-        <p>Sign up and discover great amount of new opportunities!</p>
-      </div>
-      <div class="img__text m--in">
-        <h2>Welcome Back!</h2>
-        <br>
-    
-        <p>Have an account with us?</p>
-      </div>
-      <div class="img__btn">
-        <span class="m--up">Sign Up</span>
-        <span class="m--in">Sign In</span>
-      </div>
-    </div>
-
-    <!--Registration or signup page-->
-
-    <div class="form sign-up">
-      <h2 id="create-account">Create Account</h2>
-      <label>
-
-
-          <div class="social"><ul>
-              <li><i class="fa wp-icon fa-facebook-f fa-lg"></i></li>
-              <li><i class="fa wp-icon fa-linkedin fa-lg"></i></li>
-              <li><i class="fa wp-icon fa-twitter fa-lg"></i></li>
-              
-              </ul></div>
-
-            <br>
-            <br>
-            <br>     
-   <div> 
-       <p class="tip">or use your email for registration:</p>
-    </div> 
-    <br>
-     
-
-
-        <div class="awesomeholder">
-        <input type="text" placeholder="Name" style="direction: rtl; text-align: left;"/>
-        <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-      </div>
-
-        <div class="awesomeholder">
-        <input type="email" placeholder="Email" style="direction: rtl; text-align: left;"/>
-        <i class="fa fa-envelope fa-lg fa-fw"></i>
-        </div>
-
-        <div class="awesomeholder">
-        <input type="password" placeholder="Password" style="direction: rtl; text-align: left;"/>
-        <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
-        </div>
-      </label>
-      <button type="button" class="submit">Sign Up</button>
-    </div>
   </div>
-</div>
-          <!--Ends here-->
+  <!--Ends here-->
 
-<script>document.querySelector('.img__btn').addEventListener('click', function() {
-        document.querySelector('.cont').classList.toggle('s--signup');
-    });</script>
-        
+  <script>
+    document.querySelector('.btn-container').addEventListener('click', function () {
+      document.querySelector('.cont').classList.toggle('s--signup');
+    });
+  </script>
+
 </body>
+
 </html>
