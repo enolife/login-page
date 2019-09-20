@@ -15,47 +15,22 @@
   <!-- Main Container -->
   <div class="cont">
 
-    <!-- Log In  -->
-    <form class="label sign-in">
-      <!-- TITLE -->
-      <h2 id="login-header">Log In</h2>
-
-      <!-- Email -->
-      <div class="awesomeholder">
-        <input type="email" placeholder="Email" id="email" />
-        <label for="email"><i class="fa fa-envelope fa-md fa-fw"></i></label>
-      </div>
-
-      <!-- Password -->
-      <div class="awesomeholder">
-        <input type="password" placeholder="Password" id="password"/>
-        <label for="password">
-          <i class="fa fa-lock fa-md fa-fw" aria-hidden="true"></i>
-        </label>
-      </div>
-
-      <!-- Submit -->
-      <button type="button" class="submit-login">Log In</button>
-    </form>
-    <!--Ends here-->
-
+    
     <!-- Info & Sign-Up Section -->
     <div class="sub-cont">
 
       <!-- Info Box -->
-      <div class="img">
+      <div class="img- header">
         <h1 class="team-name">SPARK</h1>
-        <div class="img__text m--up">
+        <div class="img__text- m--up info">
           <h2>Hey, There!</h2>
           <p>Stay connected with us</p>
         </div>
-        <div class="img__text m--in">
+        <div class="img__text- m--in info">
           <h2>Welcome Back!</h2>
-          <br>
-
           <p>Have an account with us?</p>
         </div>
-        <div class="img__btn">
+        <div class="img__btn btn-container">
           <span class="m--up">Sign Up</span>
           <span class="m--in">Log In</span>
         </div>
@@ -109,11 +84,35 @@
         <button type="button" class="submit">Sign Up</button>
       </form>
     </div>
+    <!-- Log In  -->
+    <form class="label sign-in">
+      <!-- TITLE -->
+      <h2 id="login-header">Log In</h2>
+
+      <!-- Email -->
+      <div class="awesomeholder">
+        <input type="email" placeholder="Email" id="email" />
+        <label for="email"><i class="fa fa-envelope fa-md fa-fw"></i></label>
+      </div>
+
+      <!-- Password -->
+      <div class="awesomeholder">
+        <input type="password" placeholder="Password" id="password"/>
+        <label for="password">
+          <i class="fa fa-lock fa-md fa-fw" aria-hidden="true"></i>
+        </label>
+      </div>
+
+      <!-- Submit -->
+      <button type="button" class="submit">Log In</button>
+    </form>
+    <!--Ends here-->
+
   </div>
   <!--Ends here-->
 
   <script>
-    document.querySelector('.img__btn').addEventListener('click', function () {
+    document.querySelector('.btn-container').addEventListener('click', function () {
       document.querySelector('.cont').classList.toggle('s--signup');
     });
   </script>
