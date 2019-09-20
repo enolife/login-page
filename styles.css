@@ -116,18 +116,16 @@
    border-radius: 30px;
  }
  
- .forgot-pass {
-
-  margin-top: 29px;
-
+ .forget-pass {
+  margin-top: -11px;
   text-align: center;
-
   font-size: 15px;
-
   color: #000000;
-
   margin-left: 70px;
-
+  text-decoration: none;
+  display: block;
+  padding-top:24px;
+  
 }
 
 
@@ -556,17 +554,11 @@
  }
  
  .forgot-pass {
-
   margin-top: 29px;
-
   text-align: center;
-
   font-size: 15px;
-
   color: #000000;
-
   margin-left: 70px;
-
 }
 
 
@@ -877,4 +869,19 @@
    .submit {
      margin-left: 60px;
    }
- }
+  }
+
+  @media (max-width: 500px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .forget-pass {
+  margin-top: -11px;
+  text-align: center;
+  font-size: 15px;
+  color: #00000;
+  margin-left: 10px;
+  text-decoration: none;
+  display: block;
+  padding-top:24px;
+  
+}
+  }
