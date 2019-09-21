@@ -408,42 +408,52 @@ body {
 	margin-right: auto;
 }
 .woop {
-	width: 12px;
-	margin-top: 30px;
-	position: absolute;
-	left: 41%;
-	top: 39%;
-	transform: translate(-50%, -50%);
-	color: #69c191;
-	font-size: 44pt;
+    width: 12px;
+    margin-top: 30px;
+    position: absolute;
+    left: 41%;
+    top: 34%;
+    color: #69c191;
+    font-size: 44pt;
 }
+
 .woop2 {
-	width: 12px;
-	margin-top: 30px;
-	position: absolute;
-	left: 44.5%;
-	top: 44.8%;
-	transform: translate(-1%, -50%);
-	color: rgb(8, 8, 8);
-	white-space: nowrap;
-	font-size: 11pt;
+    width: 12px;
+    margin-top: 30px;
+    position: absolute;
+    left: 44.5%;
+    top: 43.8%;
+    color: rgb(8, 8, 8);
+    white-space: nowrap;
+    font-size: 11pt;
 }
+
 .fist {
-	width: 100px;
-	margin-top: 30px;
-	position: absolute;
-	left: 34.7%;
-	top: 40%;
-	transform: translate(-50%, -50%);
+    width: 100px;
+    margin-top: 30px;
+    position: absolute;
+    left: 31.7%;
+    top: 32%;
 }
+
 .logo {
-	width: 130px;
-	margin-top: 56px;
-	position: absolute;
-	left: 34.7%;
-	top: 60%;
-	transform: translate(-240%, -990%);
+    width: 130px;
+    margin-top: 56px;
+    position: absolute;
+    left: 16.2%;
+    top: 6%;
 }
+
+.logout {
+    width: 60px;
+    height: 40px;
+    margin-top: 56px;
+    position: absolute;
+    left: 22.7%;
+    top: 12%;
+    transform: translate(1390%, -70%);
+}
+
 .button {
 	background-image: linear-gradient(to bottom, rgb(253, 251, 251), #389462f0);
 	-webkit-border-radius: 28;
@@ -466,6 +476,7 @@ body {
 	padding-left: 60px;
 	padding-right: 60px;
 }
+
 @media (max-width: 500px) {
 	/* CSS that should be displayed if width is equal to or less than 800px goes here */
 	.container ul li {
@@ -494,33 +505,35 @@ body {
 	.woop {
 		margin-top: 15px;
 		position: absolute;
-		left: 31%;
-		top: 39%;
+		left: 22%;
+		top: 44%;
 		transform: translate(-41%, -50%);
 		color: #4DB8A9;
-		font-size: 38pt;
+		font-size: 34pt;
 	}
+
 	.woop2 {
-    width: 10px;
-    margin-top: 15px;
-    position: absolute;
-    left: 36%;
-    top: 44%;
-    transform: translate(-41%, -50%);
-    color: rgb(8, 8, 8);
-    white-space: nowrap;
-    font-size: 11pt;
-}
-	.fist {
-		width: 86px;
-		margin-top: 30px;
+		width: 10px;
+		margin-top: 15px;
 		position: absolute;
-		left: 15.7%;
-		top: 37%;
+		left: 28%;
+		top: 50%;
+		transform: translate(-41%, -50%);
+		color: rgb(8, 8, 8);
+		white-space: nowrap;
+		font-size: 11pt;
+	}
+
+.fist {
+    width: 86px;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    top: 26%;
     transform: translate(-50%, -50%);
-  }
+}
   
-  .button {
+.button {
     background-image: linear-gradient(to bottom, rgb(147, 208, 218), rgb(71, 173, 130));
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -539,8 +552,16 @@ body {
     left: 40%;
     top: 38%;
     transform: translate(0%, 820%);
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-left: 33px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 18px;
+}
+
+ .logo {
+    width: 80px;
+    margin-top: 80px;
+    position: absolute;
+    left: 4.7%;
+    top: -8%;
 }
 }
